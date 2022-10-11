@@ -1,0 +1,6 @@
+option('image_library', type: 'combo', choices: ['auto', 'gdk-pixbuf', 'qt4', 'qt5'],
+       description: 'Which image processing backend to use')
+option('gtk_doc',
+  type: 'boolean',
+  value: 'false',
+  description: 'Build the API reference (requires gtk-doc)')

@@ -1,0 +1,3 @@
+Tests: libmediaart-2.0-dev
+Restrictions: allow-stderr, superficial
+Depends: build-essential, libmediaart-2.0-dev, pkg-config
